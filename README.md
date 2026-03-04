@@ -1,6 +1,6 @@
 # Personal Website
 
-Welcome to my [personal website](https://mldangelo.com)! This is an [MIT licensed](https://github.com/mldangelo/personal-site/blob/main/LICENSE) Next.js-based Jamstack application. It offers a simple interface, easy modifications, static export capabilities, and free automatic deployments via [GitHub Pages](https://pages.github.com/).
+Welcome to my [personal website](https://cloudsofsushi.github.io/)! This is an [MIT licensed](https://github.com/cloudsofsushi/cloudsofsushi.github.io/blob/main/LICENSE) Next.js-based Jamstack application. It offers a simple interface, easy modifications, static export capabilities, and free automatic deployments via [GitHub Pages](https://pages.github.com/).
 
 ## 🚀 Features
 
@@ -12,11 +12,8 @@ Welcome to my [personal website](https://mldangelo.com)! This is an [MIT license
 
 ## 🛠 Adapting this Project
 
-Want to create your own personal website based on this project? You can set it up in as little as 30 minutes! Follow the setup instructions below and check out the **[detailed guide and checklist](./docs/adapting-guide.md)** on adapting this project to your needs. If you encounter any challenges, don't hesitate to contact me through an issue or email at [help@mldangelo.com](mailto:help@mldangelo.com).
+Want to create your own personal website based on this project? You can set it up in as little as 30 minutes! Follow the setup instructions below and check out the **[detailed guide and checklist](./docs/adapting-guide.md)** on adapting this project to your needs. If you encounter any challenges, don't hesitate to contact me through an issue or email at [sushmita7988@gmail.com](mailto:sushmita7988@gmail.com).
 
-## 🤝 Contributing
-
-Your contributions are warmly welcomed! If you wish to contribute, please review the [design goals](./docs/design-goals.md), [roadmap](./docs/roadmap.md), and [contributing guidelines](./docs/contributing.md). For any bugs or suggestions, you can reach out via email, submit a pull request (I'd be happy to get you a coffee as a thank-you!), or open an issue.
 
 ## 🔧 Dependencies
 
@@ -27,8 +24,8 @@ Ensure you have [node](https://nodejs.org/) >= v20. Optionally, use [nvm](https:
 1. Clone the repository:
 
    ```bash
-   git clone git://github.com/mldangelo/personal-site.git
-   cd personal-site
+   git clone git://github.com/cloudsofsushi.github.io.git
+   cd cloudsofsushi.github.io
    ```
 
 2. (Optional) Ensure you're on Node v20 or higher:
@@ -112,4 +109,4 @@ npm test              # Run Jest tests
 
 ## 📝 License
 
-[MIT](https://github.com/mldangelo/personal-site/blob/main/LICENSE)
+[MIT](https://github.com/cloudsofsushi/cloudsofsushi.github.io/blob/main/LICENSE)
