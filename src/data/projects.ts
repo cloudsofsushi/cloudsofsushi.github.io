@@ -11,7 +11,7 @@ const data: Project[] = [
   {
     title: 'Nearest Dollar',
     subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
+    image: '/images/projects/project1.png',
     date: '2015-11-20',
     desc:
       'Built for a social impact hackathon. ' +
@@ -23,7 +23,7 @@ const data: Project[] = [
     title: 'Harvest',
     subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
     link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
+    image: '/images/projects/project2.jpg',
     date: '2015-09-20',
     desc:
       'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
@@ -34,7 +34,7 @@ const data: Project[] = [
     title: 'Space Potato',
     subtitle: 'A kickstarter funded potato powered weather balloon.',
     link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
+    image: '/images/projects/project3.jpg',
     date: '2015-06-28',
     desc:
       'Launched a potato battery powered weather balloon with two cameras ' +
