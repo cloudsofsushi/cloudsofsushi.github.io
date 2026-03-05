@@ -33,11 +33,11 @@ export default function HomePage() {
           <Link href="/contact">contact</Link> me.
         </p>
         <p>
-          {' '}
-          Source code available here{' '}
-          <a href="https://github.com/cloudsofsushi/cloudsofsushi.github.io">here</a>.
+        {' '}
+        Source code available{' '}
+        <a href="https://github.com/cloudsofsushi/cloudsofsushi.github.io"> here.</a>
         </p>
-        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer">This is a link and you should definitely click it.</a></p>      </article>
+      </article>
     </PageWrapper>
   );
 }
