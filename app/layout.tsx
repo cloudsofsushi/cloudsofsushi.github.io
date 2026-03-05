@@ -26,26 +26,25 @@ export const metadata: Metadata = {
     template: "%s | Michael D'Angelo",
   },
   description:
-    'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
+    'Sushmita, an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
   keywords: [
-    "Michael D'Angelo",
-    'LLM security',
-    'machine learning',
-    'CTO',
-    'startup founder',
-    'YC',
+    'Sushmita',
+    'ABAP Developer',
+    'SAP',
+    'IT',
+    'BCH Electric Ltd',
   ],
   authors: [{ name: "Michael D'Angelo" }],
   creator: "Michael D'Angelo",
-  metadataBase: new URL('https://mldangelo.com'),
+  metadataBase: new URL('https://cloudsofsushi.github.io/'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mldangelo.com',
+    url: 'https://cloudsofsushi.github.io/',
     siteName: "Michael D'Angelo",
     title: "Michael D'Angelo",
     description:
-      'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
+      'Sushmita, an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
     images: [
       {
         url: '/images/me.jpg',
