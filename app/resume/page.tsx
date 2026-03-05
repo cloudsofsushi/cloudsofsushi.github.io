@@ -14,7 +14,7 @@ import work from '@/data/resume/work';
 export const metadata: Metadata = {
   title: 'Resume',
   description:
-    'Sushmita's Resume. Education, Experience, Skills, Courses, References',
+    'Sushmita\'s Resume. Education, Experience, Skills, Courses, References',
 };
 
 const sections = [
