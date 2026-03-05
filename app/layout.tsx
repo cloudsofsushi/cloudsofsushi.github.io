@@ -22,29 +22,36 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Sushmita',
-    template: '%s | Sushmita',
+    default: "Michael D'Angelo",
+    template: "%s | Michael D'Angelo",
   },
   description:
-    'Sushmita, an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
-  keywords: ['Sushmita', 'ABAP', 'SAP', 'BCH Electric Ltd', 'IT', 'Faridabad'],
-  authors: [{ name: 'Sushmita' }],
-  creator: 'Sushmita',
-  metadataBase: new URL('https://cloudsofsushi.github.io/'),
+    'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
+  keywords: [
+    "Michael D'Angelo",
+    'LLM security',
+    'machine learning',
+    'CTO',
+    'startup founder',
+    'YC',
+  ],
+  authors: [{ name: "Michael D'Angelo" }],
+  creator: "Michael D'Angelo",
+  metadataBase: new URL('https://mldangelo.com'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://cloudsofsushi.github.io/',
-    siteName: 'Sushmita',
-    title: 'Sushmita',
+    url: 'https://mldangelo.com',
+    siteName: "Michael D'Angelo",
+    title: "Michael D'Angelo",
     description:
-      'Sushmita, an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
+      'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
     images: [
       {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: 'Sushmita',
+        alt: "Michael D'Angelo",
       },
     ],
   },
