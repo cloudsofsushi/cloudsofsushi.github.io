@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { faFilePdf } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
@@ -39,7 +39,7 @@ export default function HomePage() {
           <ul className="actions">
             <li>
               <a href="sushmita-CV.pdf" className="button" download>
-                Download CV <FontAwesomeIcon icon={faFilePdf} />
+                Download CV <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
           </ul>
