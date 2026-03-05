@@ -22,27 +22,27 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Sushmita",
+    default: 'Sushmita',
     template: "%s | Sushmita",
   },
   description:
     'Sushmita, an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
   keywords: [
-    "Sushmita",
+    'Sushmita',
     'ABAP, SAP',
     'BCH Electric Ltd',
     'IT',
     'Faridabad',
   ],
-  authors: [{ name: "Sushmita" }],
-  creator: "Sushmita",
+  authors: [{ name: 'Sushmita' }],
+  creator: 'Sushmita',
   metadataBase: new URL('https://cloudsofsushi.github.io/'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://cloudsofsushi.github.io/',
-    siteName: "Sushmita",
-    title: "Sushmita",
+    siteName: 'Sushmita',
+    title: 'Sushmita',
     description:
       'Sushmita, an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
     images: [
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Sushmita",
+        alt: 'Sushmita',
       },
     ],
   },
