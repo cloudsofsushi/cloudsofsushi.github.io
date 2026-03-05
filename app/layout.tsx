@@ -26,13 +26,14 @@ export const metadata: Metadata = {
     template: "%s | Michael D'Angelo",
   },
   description:
-    'Sushmita, an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
+    'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
   keywords: [
     'Sushmita',
-    'ABAP Developer',
-    'SAP',
-    'IT',
-    'BCH Electric Ltd',
+    'LLM security',
+    'machine learning',
+    'CTO',
+    'startup founder',
+    'YC',
   ],
   authors: [{ name: "Michael D'Angelo" }],
   creator: "Michael D'Angelo",
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "Michael D'Angelo",
     title: "Michael D'Angelo",
     description:
-      'Sushmita, an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
+      'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
     images: [
       {
         url: '/images/me.jpg',
