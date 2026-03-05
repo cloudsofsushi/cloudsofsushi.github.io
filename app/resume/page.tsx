@@ -14,7 +14,7 @@ import work from '@/data/resume/work';
 export const metadata: Metadata = {
   title: 'Resume',
   description:
-    "Sushmita's Resume. Education, Experience, Skills, Courses, References",
+    "Michael D'Angelo's Resume. Promptfoo, Smile ID, Arthena, Matroid, Stanford ICME, YC alum.",
 };
 
 const sections = [
