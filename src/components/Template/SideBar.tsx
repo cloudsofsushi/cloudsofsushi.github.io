@@ -33,10 +33,9 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hi, I&apos;m Sushmita. I am an ABAP Developer at{' '} 
-          <a href="https://bchindia.com/">BCH Electric Ltd</a> B.Tech in IT
-          from{' '}
-          <a href="https://nitkkr.ac.in/">NIT Kurukshetra</a>. I am passionate 
+          Hi, I&apos;m Sushmita. I am an ABAP Developer at{' '}
+          <a href="https://bchindia.com/">BCH Electric Ltd</a> B.Tech in IT from{' '}
+          <a href="https://nitkkr.ac.in/">NIT Kurukshetra</a>. I am passionate
           about technology, learning, and innovation.
         </p>
         <ul className="actions">
