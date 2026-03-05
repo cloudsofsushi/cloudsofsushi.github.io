@@ -23,17 +23,11 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: {
     default: 'Sushmita',
-    template: "%s | Sushmita",
+    template: '%s | Sushmita',
   },
   description:
     'Sushmita, an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
-  keywords: [
-    'Sushmita',
-    'ABAP, SAP',
-    'BCH Electric Ltd',
-    'IT',
-    'Faridabad',
-  ],
+  keywords: ['Sushmita', 'ABAP', 'SAP', 'BCH Electric Ltd', 'IT', 'Faridabad'],
   authors: [{ name: 'Sushmita' }],
   creator: 'Sushmita',
   metadataBase: new URL('https://cloudsofsushi.github.io/'),
