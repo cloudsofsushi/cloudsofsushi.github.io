@@ -14,16 +14,13 @@ const messages = [
   'hi',
   'hello',
   'hola',
-  'you-can-email-me-at-literally-anything! Really',
+  'you-can-email-me-literally-anything! Really',
   'well, not anything. But most things',
   'like-this',
   'or-this',
   'but not this :(  ',
   'you.can.also.email.me.with.specific.topics.like',
   'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
   'or-I-really-like-your-website',
   'thanks',
 ];
@@ -139,12 +136,12 @@ const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
       <a
         href={
           validateText(state.message)
-            ? `mailto:${state.message}@mldangelo.com`
+            ? `mailto:${state.message}@sushmita7988@gmail.com`
             : ''
         }
       >
         <span>{state.message}</span>
-        <span>@mldangelo.com</span>
+        <span>@sushmita7988</span>
       </a>
     </div>
   );
