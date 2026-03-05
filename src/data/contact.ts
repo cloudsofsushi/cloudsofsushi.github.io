@@ -18,7 +18,7 @@ const data: ContactItem[] = [
     icon: faGithub,
   },
   {
-    link: 'https://www.instagram.com/dangelosaurus/',
+    link: 'https://www.instagram.com/',
     label: 'Instagram',
     icon: faInstagram,
   },
@@ -28,7 +28,7 @@ const data: ContactItem[] = [
     icon: faLinkedinIn,
   },
   {
-    link: 'https://x.com/dangelosaurus',
+    link: 'https://x.com/',
     label: 'X',
     icon: faTwitter,
   },
