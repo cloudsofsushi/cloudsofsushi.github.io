@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-brands-svg-icons';
 import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
@@ -34,15 +34,17 @@ export default function HomePage() {
           <Link href="/stats">site statistics</Link>, or{' '}
           <Link href="/contact">contact</Link> me.
         </p>
+
         <section className="blurb">
           <ul className="actions">
             <li>
               <a href="sushmita-CV.pdf" className="button" download>
-                Download CV <FontAwesomeIcon icon={faGithub} />
+                Download CV <FontAwesomeIcon icon={faFilePdf} />
               </a>
             </li>
           </ul>
-        </section>        
+        </section>
+
         <p>
           {' '}
           Source code available{' '}
