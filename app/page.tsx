@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 
 import PageWrapper from './components/PageWrapper';
 
@@ -33,6 +35,19 @@ export default function HomePage() {
           <Link href="/stats">site statistics</Link>, or{' '}
           <Link href="/contact">contact</Link> me.
         </p>
+        <section className="blurb">
+          <ul className="actions">
+            <li>
+              <a
+                href="sushmita-CV.pdf"
+                className="button"
+                download
+              >
+                Download CV <FontAwesomeIcon icon={faFilePdf} />
+              </a>
+            </li>
+          </ul>
+        </section>        
         <p>
           {' '}
           Source code available{' '}
