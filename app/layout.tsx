@@ -22,8 +22,8 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Michael D'Angelo",
-    template: "%s | Michael D'Angelo",
+    default: 'Sushmita',
+    template: '%s | Sushmita',
   },
   description:
     'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
@@ -35,15 +35,15 @@ export const metadata: Metadata = {
     'startup founder',
     'YC',
   ],
-  authors: [{ name: "Michael D'Angelo" }],
-  creator: "Michael D'Angelo",
+  authors: [{ name: 'Sushmita' }],
+  creator: 'Sushmita',
   metadataBase: new URL('https://cloudsofsushi.github.io/'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://cloudsofsushi.github.io/',
-    siteName: "Michael D'Angelo",
-    title: "Michael D'Angelo",
+    siteName: 'Sushmita',
+    title: 'Sushmita',
     description:
       'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
     images: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Michael D'Angelo",
+        alt: 'Sushmita',
       },
     ],
   },
