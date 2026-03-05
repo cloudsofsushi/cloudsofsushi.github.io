@@ -19,7 +19,8 @@ export default function HomePage() {
               <Link href="/about">Welcome नमस्ते !</Link>
             </h2>
             <p>
-              “Innovation Distinguishes Between A Leader And A Follower.” - Steve Jobs.
+              “Innovation Distinguishes Between A Leader And A Follower.” -
+              Steve Jobs.
             </p>
           </div>
         </header>
@@ -34,8 +35,11 @@ export default function HomePage() {
         </p>
         <p>
           {' '}
-          Source available{' '}
-          <a href="https://github.com/cloudsofsushi/cloudsofsushi.github.io">here</a>.
+          Source code available{' '}
+          <a href="https://github.com/cloudsofsushi/cloudsofsushi.github.io">
+            here
+          </a>
+          .
         </p>
       </article>
     </PageWrapper>
