@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
-import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
@@ -36,7 +36,7 @@ export default function HomePage() {
         <section className="blurb">
           <ul className="actions">
             <li>
-              <a href="nirmalsingh-CV.pdf" className="button" download>
+              <a href="sushmita-CV.pdf" className="button" download>
                 Download CV <FontAwesomeIcon icon={faGithub} />
               </a>
             </li>
