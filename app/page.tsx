@@ -33,9 +33,9 @@ export default function HomePage() {
           <Link href="/contact">contact</Link> me.
         </p>
         <p>
-        {' '}
-        Source code available{' '}
-        <a href="https://github.com/cloudsofsushi/cloudsofsushi.github.io"> here.</a>
+          {' '}
+          Source available{' '}
+          <a href="https://github.com/cloudsofsushi/cloudsofsushi.github.io">here</a>.
         </p>
       </article>
     </PageWrapper>
