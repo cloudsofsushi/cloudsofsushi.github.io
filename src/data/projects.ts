@@ -9,7 +9,6 @@ export interface Project {
 
 const data: Project[] = [
   {
-  {
     title: 'MelCochleaGram-DeepCNN',
     subtitle: 'MelCochleaGram-DeepCNN',
     link: 'https://drive.google.com/file/d/1CCXPdm4mS8j8Sjy59Z8pMFjPeu5QPOUC/view?usp=drive_link',
