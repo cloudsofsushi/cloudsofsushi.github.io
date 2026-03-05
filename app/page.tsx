@@ -41,6 +41,15 @@ export default function HomePage() {
           </a>
           .
         </p>
+        <p>
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            This is a link and you should definitely click it.
+          </a>
+        </p>
       </article>
     </PageWrapper>
   );
