@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: '%s | Sushmita',
   },
   description:
-    'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
+    'Sushmita an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
   keywords: [
     'Sushmita',
     'LLM security',
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: 'Sushmita',
     title: 'Sushmita',
     description:
-      'Co-founder & CTO building LLM security tools. Previously VP Engineering, YC alum, Stanford ICME.',
+      'Sushmita an ABAP Developer at BCH Electric Ltd B.Tech in IT from NIT Kurukshetra.',
     images: [
       {
         url: '/images/me.jpg',
