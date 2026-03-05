@@ -4,41 +4,28 @@ import { StatData } from '../../components/Stats/types';
 
 /* Keys match keys returned by the github api. Fields without keys are
  * mostly jokes. To see everything returned by the github api, run:
- curl https://api.github.com/repos/mldangelo/personal-site
+ curl https://api.github.com/repos/cloudsofsushi/cloudsofsushi.github.io
  */
 const data: StatData[] = [
   {
     label: 'Stars this repository has on github',
     key: 'stargazers_count',
-    link: 'https://github.com/mldangelo/personal-site/stargazers',
+    link: 'https://github.com/cloudsofsushi/cloudsofsushi.github.io/stargazers',
   },
   {
     label: 'Number of people watching this repository',
     key: 'subscribers_count',
-    link: 'https://github.com/mldangelo/personal-site/stargazers',
+    link: 'https://github.com/cloudsofsushi/cloudsofsushi.github.io/stargazers',
   },
   {
     label: 'Number of forks',
     key: 'forks',
-    link: 'https://github.com/mldangelo/personal-site/network',
-  },
-  {
-    label: 'Number of spoons',
-    value: '0',
-  },
-  {
-    label: 'Number of linter warnings',
-    value: '0', // enforced via github workflow
-  },
-  {
-    label: 'Open github issues',
-    key: 'open_issues_count',
-    link: 'https://github.com/mldangelo/personal-site/issues',
+    link: 'https://github.com/cloudsofsushi/cloudsofsushi.github.io/network',
   },
   {
     label: 'Last updated at',
     key: 'pushed_at',
-    link: 'https://github.com/mldangelo/personal-site/commits',
+    link: 'https://github.com/cloudsofsushi/cloudsofsushi.github.io/commits',
     format: (x: unknown) => dayjs(x as string).format('MMMM DD, YYYY'),
   },
   {
@@ -46,8 +33,8 @@ const data: StatData[] = [
     /* find . | grep ".js" | grep -vE ".min.js|node_modules|.git|.json" |
     xargs -I file cat file | wc -l */
     label: 'Lines of TypeScript powering this website',
-    value: '2279',
-    link: 'https://github.com/mldangelo/personal-site/graphs/contributors',
+    value: '3000',
+    link: 'https://github.com/cloudsofsushi/cloudsofsushi.github.io/graphs/contributors',
   },
 ];
 
