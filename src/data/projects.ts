@@ -9,47 +9,38 @@ export interface Project {
 
 const data: Project[] = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/project1.png',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. ' +
-      'NearestDollar connected to your bank accounts, credit cards, ' +
-      'or debit cards and rounded up your purchases to donate the balance to ' +
-      'the charity of your choice.',
-  },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/project2.jpg',
-    date: '2015-09-20',
+    title: 'MelCochleaGram-DeepCNN',
+    subtitle: 'MelCochleaGram-DeepCNN',
+    link: 'https://drive.google.com/file/d/1CCXPdm4mS8j8Sjy59Z8pMFjPeu5QPOUC/view?usp=drive_link',
+    image: '/images/projects/project1.png',
+    date: '2024-05-01',
     desc:
       'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
       'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
       'and nutrient deficiencies at an affordable price for the developing world.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
+    title: 'Traffic System Controller using Big Data Analytics',
+    subtitle: 'Traffic System Controller using Big Data Analytics',
+    link: 'https://drive.google.com/file/d/1vSunrVeb2cbYyI88ZqskAR6yVi7mvcUt/view?usp=drive_link',
+    image: '/images/projects/project2.jpg',
+    date: '2024-05-01',
+    desc:
+      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
+      'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
+      'and nutrient deficiencies at an affordable price for the developing world.',
+  },
+  {
+    title: 'NIT Kurukshetra Website',
+    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
+    link: 'https://cloudsofsushi.github.io/nitk/',
     image: '/images/projects/project3.jpg',
-    date: '2015-06-28',
+    date: '2021-12-01',
     desc:
       'Launched a potato battery powered weather balloon with two cameras ' +
       'and gps transponder. Resulting photos were published in a coffee table book. ' +
       'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. ' +
-      'Over 60,000 cats were classified before server bills made the project too expensive ' +
-      'to continue hosting.',
   },
 ];
 
