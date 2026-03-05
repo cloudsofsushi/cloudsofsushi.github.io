@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import PageWrapper from './components/PageWrapper';
