@@ -9,7 +9,7 @@ import PageWrapper from '../components/PageWrapper';
 
 export const metadata: Metadata = {
   title: 'Stats',
-  description: 'Some statistics about Sushmita and cloudsofsushi.github.io/',
+  description: "Some statistics about Sushmita and cloudsofsushi.github.io",
 };
 
 export default function StatsPage() {
