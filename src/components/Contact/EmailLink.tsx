@@ -109,8 +109,8 @@ interface EmailLinkProps {
 }
 
 const EmailLink: React.FC<EmailLinkProps> = ({ loopMessage = false }) => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
-  const delay = 50; // tick length in mS
+  const hold = 30; // ticks to wait after message is complete before rendering next message
+  const delay = 40; // tick length in mS
 
   const [state, dispatch] = useReducer(animationReducer, {
     idx: 0,
