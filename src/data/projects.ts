@@ -15,9 +15,11 @@ const data: Project[] = [
     image: '/images/projects/project1.png',
     date: '2024-05-01',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
-      'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
-      'and nutrient deficiencies at an affordable price for the developing world.',
+      'Sequentially Fused Spectrogram and the DeepCNN Classifiers-based ' +
+      'Audio Spoof Detection System. This project introduces a novel ' +
+      'approach MCG spectrogram by fusing the Mel Spectrogram and Cochleagram ' +
+      'sequentially. For the classification, three pretrained models ' +
+      'ResNet50, ResNet50V2, and InceptionV3 have been used.',
   },
   {
     title: 'Traffic System Controller using Big Data Analytics',
@@ -26,9 +28,9 @@ const data: Project[] = [
     image: '/images/projects/project2.jpg',
     date: '2024-05-01',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution ' +
-      'for crops. Harvest was designed to catch irrigation leaks, overwatering, ' +
-      'and nutrient deficiencies at an affordable price for the developing world.',
+      'Focused on advancement of Traffic System Controllers, contributing to safer, ' +
+      'more efficient urban transportation systems. The project implements the three ' +
+      'layers of the Lambda Architecture- Batch layer, Serving layer, Speed layer.',
   },
   {
     title: 'NIT Kurukshetra Website',
@@ -37,9 +39,9 @@ const data: Project[] = [
     image: '/images/projects/project3.jpg',
     date: '2021-12-01',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras ' +
-      'and gps transponder. Resulting photos were published in a coffee table book. ' +
-      'You can email me for a copy.',
+      'Designed and developed a comprehensive college website featuring ' +
+      'multiple interactive sections, providing structured access to ' +
+      'academic, administrative, and campus-related information.',
   },
 ];
 
