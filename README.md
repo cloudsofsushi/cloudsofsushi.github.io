@@ -107,6 +107,10 @@ npm test              # Run Jest tests
 - **Images**: Replace images in `public/images/` with your own.
 - **Theme**: Modify SCSS variables in `src/static/css/libs/_vars.scss`.
 
+## Acknowledgements
+
+This project is a major derivative of Michael d'Angelo work [personal-site](https://github.com/mldangelo/personal-site). You should check it out.
+
 ## 📝 License
 
 [MIT](https://github.com/cloudsofsushi/cloudsofsushi.github.io/blob/main/LICENSE)
