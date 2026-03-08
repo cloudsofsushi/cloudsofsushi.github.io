@@ -1,4 +1,5 @@
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import type { IconProp } from '@fortawesome/fontawesome-svg-core';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import type { Metadata } from 'next';
 import Link from 'next/link';
@@ -39,8 +40,8 @@ export default function HomePage() {
         <section className="blurb">
           <ul className="actions">
             <li>
-              <a href="sushmita-CV.pdf" className="button" download>
-                Download CV <FontAwesomeIcon icon={faGithub} />
+              <a href="/sushmita-CV.pdf" className="button" download>
+                Download CV <FontAwesomeIcon icon={faDownload as IconProp} />
               </a>
             </li>
           </ul>
